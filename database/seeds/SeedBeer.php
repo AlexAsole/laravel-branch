@@ -1,0 +1,22 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use App\Beer;
+class SeedBeer extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        for($i=0; $i<4; $i++ ) {
+            $beer = new Beer();
+            $beer->name = 'ciccio';
+            $beer->price='10';
+            $beer->save();
+        }
+
+    }
+}
