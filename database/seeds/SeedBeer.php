@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use App\Beer;
+
 class SeedBeer extends Seeder
 {
     /**
@@ -11,12 +12,11 @@ class SeedBeer extends Seeder
      */
     public function run()
     {
-        for($i=0; $i<4; $i++ ) {
+        for ($i = 0; $i < 4; $i++) {
             $beer = new Beer();
-            $beer->name = 'alextestadiminchia';
-            $beer->price='15';
+            $beer->name = 'fabiotestadiminchia';
+            $beer->price = '15';
             $beer->save();
         }
-
     }
 }
