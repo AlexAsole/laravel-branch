@@ -13,8 +13,8 @@ class SeedBeer extends Seeder
     {
         for($i=0; $i<4; $i++ ) {
             $beer = new Beer();
-            $beer->name = 'alextestadiminchia';
-            $beer->price='15';
+            $beer->name = 'alexgrandissimatestadiminchia';
+            $beer->price='12';
             $beer->save();
         }
 
