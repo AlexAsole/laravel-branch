@@ -15,7 +15,7 @@ class SeedBeer extends Seeder
         for ($i = 0; $i < 4; $i++) {
             $beer = new Beer();
             $beer->name = 'fabiotestadiminchia';
-            $beer->price = '15';
+            $beer->price = '12';
             $beer->save();
         }
     }
